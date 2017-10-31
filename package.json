@@ -1,0 +1,27 @@
+{
+  "name": "homebridge-udmx",
+  "description": "Anyma uDMX plugin for homebridge to control RGB and W LEDs via DMX protocol.",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "@Piets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Piets/homebridge-udmx.git"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=4.3.2",
+    "homebridge": ">=0.4.29"
+  },
+  "dependencies": {
+    "colorsys": "^1.0.17",
+    "usb": "^1.2.0"
+  }
+}
